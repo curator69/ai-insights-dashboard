@@ -1,0 +1,44 @@
+.mainWrapper {
+  position: relative;
+
+  .sidebarWrapper {
+    position: absolute;
+    height: 100vh;
+    width: 10rem;
+    overflow: hidden;
+
+    display: flex;
+
+    aside,
+    aside * {
+      width: 10rem !important;
+    }
+
+    .sidebar {
+      height: 100vh;
+      background-color: gray;
+    }
+  }
+
+  .navBtn {
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+
+    position: fixed;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .toggled {
+    margin-left: 12rem;
+    margin-top: 1rem;
+  }
+
+  .unToggled {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
